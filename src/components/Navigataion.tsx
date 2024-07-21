@@ -39,7 +39,7 @@ export const Navigation = ({ navLinks }: Props) => {
           </Link>
         </>
       ) : (
-        <Link href={'/api/auth/signin'}>Sign In</Link>
+        <Link href={'/signin'}>Sign In</Link>
       )}
     </>
   )
